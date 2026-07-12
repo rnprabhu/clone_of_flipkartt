@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+body{
+    background-color:beige;
+}
+.navbar{
+    height: 110px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 140px;
+}
+.logo h2{
+    color: blue;
+    font-size: 40px;
+    font-weight: 900;
+}
+.logo h4{
+    color: darkgrey;
+    font-size: 18px;
+}
+.logo span{
+    color:rgb(255, 123, 0);
+    font-weight: 900;
+}
+.search{
+    margin-left: 70px;
+    height: 60px;
+    width: 1050px;
+    background-color:rgb(190, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+}
+.search input{
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    align-items: center;
+}
+.search i{
+    font-size: 30px;
+    margin: 10px;
+}
+.login{
+    margin-left: 30px;
+}
+.login .content{
+    display: block;
+}
+.login button{
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 15px;
+}
+.login i{
+    font-size: 30px;
+    padding: 10px;
+}
+.login:hover button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.login:hover{
+    background-color: blue;
+    border-radius: 15px;
+}
+.cart{
+    display: flex;
+    font-size: 25px;
+    margin-left: 65px;
+}
+.cart i{
+    padding: 10px;
+    margin-right: 5px;
+}
+.cart h3{
+    padding: 5px;
+    font-weight: 400;
+}
+.seller{
+    margin-left: 45px;
+    display: flex;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.seller h3{
+    font-weight: 400;
+    margin-left: 10px;
+}
+.seller i{
+    padding: 7px;
+}
+.dot{
+    margin-left: 55px;
+}
+.product{
+    display: flex;
+    height: 220px;
+    width: 95%;
+    background-color: white;
+    margin: 20px 0 0 42px;
+    box-shadow: 0px 3px 15px rgba(113, 115,119,0.2);
+}
+.product div{
+    padding: 35px;
+    font-size: larger;
+    
+}
+.product img{
+    margin-left:15px ;
+    height: 150px;
+    background:none;
+    padding: 0;
+    background-color: white;
+}
+.product pre{
+    font-size: 20px;
+    font-weight: 600;
+}
+.slider{
+    margin-top: 20px;
+    margin-left: 39px;
+    height: 350px;
+    width: 95%;
+    box-shadow: 0px 0px 3px grey;
+}
+.slider img{
+    width: 100%;
+    background-size: cover;
+}
+.deals{
+    display: flex;
+    height: 450px;
+    width: 85%;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 20px;
+    margin-left: 39px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.deals img{
+    height: 200px;
+    width: auto;
+    margin-top: 90px;
+}
+#Top-deals{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: sans-serif;
+}
+.flight{
+    height: 460px;
+    width: 11%;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 15px;
+    margin-left: 8px;
+    
+}
+.flight img{
+    width: 100%;
+    height: 100%;
+}
+.main-2{
+    display: flex;
+}
